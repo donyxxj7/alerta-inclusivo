@@ -1,0 +1,56 @@
+name: alerta_inclusivo
+description: "A new Flutter project."
+# A linha seguinte impede que o pacote seja acidentalmente publicado em
+# pub.dev usando `flutter pub publish`. Isso é preferível para pacotes privados.
+publish_to: 'none' # Remova esta linha se desejar publicar em pub.dev
+
+# A linha seguinte define a versão e o número da compilação para sua aplicação.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0' # Atualizei para uma faixa mais comum e flexível
+
+# Dependencies especificam outros pacotes que seu pacote precisa para funcionar.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Ícones no estilo iOS.
+  cupertino_icons: ^1.0.8
+  
+  # Pacotes que adicionamos ao longo do projeto:
+  shared_preferences: ^2.2.3
+  geolocator: ^12.0.0
+  url_launcher: ^6.3.0
+  image_picker: ^1.1.2
+  path_provider: ^2.1.5
+  firebase_core: ^3.14.0
+  cloud_firestore: ^5.6.9
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # O pacote "flutter_lints" contém um conjunto de lints recomendados para
+  # incentivar boas práticas de codificação.
+  flutter_lints: ^3.0.0
+
+# A seção seguinte é específica para pacotes Flutter.
+flutter:
+
+  # A linha seguinte garante que a fonte Material Icons seja
+  # incluída com sua aplicação, para que você possa usar os ícones na
+  # classe material Icons.
+  uses-material-design: true
+
+  # Para adicionar assets (como imagens) à sua aplicação, adicione uma seção de assets, como esta:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # Para adicionar fontes personalizadas à sua aplicação, adicione uma seção de fontes aqui.
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf

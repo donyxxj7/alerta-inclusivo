@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "alerta-inclusivo-app",
+          "appId": "1:448050847358:android:9c663590724b1082ac822f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "alerta-inclusivo-app",
+          "configurations": {
+            "android": "1:448050847358:android:9c663590724b1082ac822f",
+            "ios": "1:448050847358:ios:f502340f53343857ac822f",
+            "macos": "1:448050847358:ios:f502340f53343857ac822f",
+            "web": "1:448050847358:web:9a3bcff6e5249fffac822f",
+            "windows": "1:448050847358:web:79e60b7e32e051e9ac822f"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "448050847358",
+    "project_id": "alerta-inclusivo-app",
+    "storage_bucket": "alerta-inclusivo-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448050847358:android:9c663590724b1082ac822f",
+        "android_client_info": {
+          "package_name": "com.example.alerta_inclusivo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC49MbdJ7vfm1i01zUINzlFDrkD-wfJugs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
