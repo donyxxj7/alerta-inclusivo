@@ -1,6 +1,6 @@
 # 🚨 Alerta Inclusivo
 
-![Versão](https://img.shields.io/badge/versão-1.0.0-blue) ![Status](https://img.shields.io/badge/status-MVP%20Funcional-success)
+![Versão](https://img.shields.io/badge/versão-1.0.0-blue) ![Status](https://img.shields.io/badge/status-MVP%20Completo-success)
 
 Um aplicativo de emergência desenvolvido em Flutter, projetado para auxiliar a comunicação de pessoas com deficiência auditiva e dificuldades de fala em momentos críticos.
 
@@ -19,11 +19,9 @@ O Alerta Inclusivo nasceu da necessidade de criar um canal de comunicação ráp
 
 ## 🖼️ Telas do Aplicativo
 
-*(Dica: Tire screenshots do seu app funcionando e substitua os links abaixo. Você pode arrastar as imagens para a área de texto de uma "issue" no seu GitHub para gerar o link)*
-
-| Tela Principal | Tela de Perfil |
+| Tela Principal (Ação) | Tela de Perfil (Dados) |
 | :---: | :---: |
-| _[INSERIR SCREENSHOT DA TELA PRINCIPAL AQUI]_ | _[INSERIR SCREENSHOT DA TELA DE PERFIL AQUI]_ |
+| ![Tela Principal do Alerta Inclusivo](https://github.com/user-attachments/assets/23ffbcd5-68f2-4a0d-916b-6a0ed16381cd)| ![Tela de Perfil do Alerta Inclusivo](https://github.com/user-attachments/assets/c7b90486-c345-45bf-b4a9-ede88fd42875) |
 
 ## 🛠️ Tecnologias e Pacotes Utilizados
 
@@ -34,7 +32,6 @@ O Alerta Inclusivo nasceu da necessidade de criar um canal de comunicação ráp
     * `geolocator` para acesso ao GPS.
     * `image_picker` e `path_provider` para seleção e armazenamento de imagens.
     * `url_launcher` para integração com o discador do celular e o WhatsApp.
-* **Backend (Configurado):** Firebase Core e Firestore para futura implementação de alertas automáticos.
 
 ## 🚀 Como Executar o Projeto
 
